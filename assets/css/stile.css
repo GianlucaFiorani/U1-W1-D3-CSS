@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&family=Markazi+Text:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oldenburg&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 header {
   text-align: center;
 }
-
-div {
+main {
+  max-width: 600px;
   margin-inline: auto;
 }
 
@@ -11,29 +13,56 @@ h1 {
   margin: 0%;
   text-align: center;
 }
+.topline {
+  height: 45px;
+  margin-bottom: 50px;
+  border-style: solid;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-color: rgba(240, 211, 22, 0.677);
+  background-color: #faf76850;
+}
+.leftline {
+  border-style: solid;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  border-color: rgb(196, 170, 0);
+}
 .bottomline {
   border-style: solid;
   border-top-width: 0;
-  border-left-width: 0 ;
+  border-left-width: 0;
   border-right-width: 0;
   border-color: rgba(3, 190, 190, 0.636);
 }
+.focaccia {
+  width: 600px;
+  border-radius: 5%;
+}
+.green {
+  color: rgb(1, 110, 74);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+.grey {
+  color: rgba(65, 64, 64, 0.503);
+  margin-top: 0;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.red {
+  color: rgb(215, 52, 15);
+  margin-bottom: 0;
+}
+li {
+  margin-bottom: 20px;
+}
 
-.topline {
-    border-style: solid;
-    border-bottom-width: 0;
-    border-left-width: 0 ;
-    border-right-width: 0;
-    border-color: rgb(196, 170, 0);
-    background-color: #fffd709e
-  }
-
-  .leftline {
-    color: rgb(78, 143, 121);
-    border-style: solid;
-    border-top-width: 0;
-    border-bottom-width: 0 ;
-    border-right-width: 0;
-    border-color: rgb(196, 170, 0);
-  }
-    
+footer {
+  max-width: 600px;
+  margin-inline: auto;
+}
